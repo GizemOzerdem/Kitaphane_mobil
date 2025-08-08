@@ -22,9 +22,10 @@ Bu proje **geliştirme aşamasındadır**. Temel ekranlar oluşturulmuş olup, *
 ## 🧱 Mevcut Özellikler
 
 - Uygulama arayüzü tasarımı
-- Navigasyon sistemi kurulumu
-- Üye Giriş paneli ve üye olma paneli
-- (Veriler şu anda sabit (static) olarak kullanılmaktadır)
+- Sayfalar arası geçiş için navigasyon sistemi
+- Üye Giriş paneli
+- Üye Olma paneli  
+_(Veriler şimdilik sabit (static) olarak kullanılmaktadır)_
 
 ---
 
@@ -33,10 +34,23 @@ Bu proje **geliştirme aşamasındadır**. Temel ekranlar oluşturulmuş olup, *
 Bu projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyin:
 
 ### 1. Bağımlılıkları yükleyin
-``bash
+
+```bash
 npm install
 # veya
 yarn install
+```
+### 2. Metro sunucusunu başlatın
+```bash
+npx react-native start
+```
+### 3. Uygulamayı Android cihaz/emülatörde başlatın
+```bash
+npx react-native run-android
+```
+📌 Not
+   Geliştirme ortamınızın hazır olduğundan emin olun. React Native ortam kurulum rehberi
+
 
 🔮 Planlanan Özellikler
 
