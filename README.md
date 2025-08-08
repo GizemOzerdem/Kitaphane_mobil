@@ -61,11 +61,16 @@ npx react-native run-android
   + Yerel veri kaydetme (AsyncStorage veya SQLite)
 
 🧑‍💻 Geliştirici
+
 👩‍💻 Gizem Özerdem
+
 Mobil geliştirme alanında kendini geliştiren bir geliştirici adayının portföy projesidir.
+
     
 📌 Not
 Bu proje henüz tamamlanmamıştır ve zamanla güncellenerek geliştirilecektir. Katkı sağlamak isterseniz PR göndermekten çekinmeyin. 😊
+
+
 
 :bulb: Üye Giriş Panelim
 
