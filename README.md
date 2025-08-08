@@ -49,7 +49,7 @@ npx react-native start
 npx react-native run-android
 ```
 📌 Not
-   Geliştirme ortamınızın hazır olduğundan emin olun. React Native ortam kurulum rehberi
+   Geliştirme ortamınızın hazır olduğundan emin olun. (https://reactnative.dev/)
 
 
 🔮 Planlanan Özellikler
