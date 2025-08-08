@@ -1,97 +1,62 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 📚 Kitaphane Mobil
 
-# Getting Started
+React Native ile geliştirilen, kullanıcıların okuduğu ve değerlendirdiği kitapları takip edebileceği bir mobil uygulamadır. Bu proje, mobil geliştirme alanında kendimi geliştirmek amacıyla hazırlanmakta olan bir çalışmadır.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+---
 
-## Step 1: Start Metro
+## 🚧 Proje Durumu
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+Bu proje **geliştirme aşamasındadır**. Temel ekranlar oluşturulmuş olup, **veritabanı bağlantısı ve API işlemleri henüz yapılmamıştır**.
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+---
 
-```sh
-# Using npm
-npm start
+## 🛠️ Kullanılan Teknolojiler
 
-# OR using Yarn
-yarn start
-```
+- React Native
+- TypeScript
+- React Navigation
+- SQL Server (veritabanı - henüz entegre edilmedi)
 
-## Step 2: Build and run your app
+---
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+## 🧱 Mevcut Özellikler
 
-### Android
+- Uygulama arayüzü tasarımı
+- Navigasyon sistemi kurulumu
+- Üye Giriş paneli ve üye olma paneli
+- (Veriler şu anda sabit (static) olarak kullanılmaktadır)
 
-```sh
-# Using npm
-npm run android
+---
 
-# OR using Yarn
-yarn android
-```
+## 🧪 Kurulum ve Çalıştırma
 
-### iOS
+Bu projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyin:
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+### 1. Bağımlılıkları yükleyin
+``bash
+npm install
+# veya
+yarn install
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+🔮 Planlanan Özellikler
 
-```sh
-bundle install
-```
+  + SQL Server ile bağlantılı bir API kurulumu
+  + Kitap ekleme, silme ve güncelleme işlemleri
+  + Kullanıcı giriş/çıkış sistemi (veri bağlantısı ile)
+  + Kategori filtreleme ve arama özelliği
+  + Yerel veri kaydetme (AsyncStorage veya SQLite)
 
-Then, and every time you update your native dependencies, run:
+🧑‍💻 Geliştirici
+👩‍💻 Gizem Özerdem
+Mobil geliştirme alanında kendini geliştiren bir geliştirici adayının portföy projesidir.
+    
+📌 Not
+Bu proje henüz tamamlanmamıştır ve zamanla güncellenerek geliştirilecektir. Katkı sağlamak isterseniz PR göndermekten çekinmeyin. 😊
 
-```sh
-bundle exec pod install
-```
+:bulb: Üye Giriş Panelim
+<img width="304" height="620" alt="Ekran görüntüsü 2025-08-08 144803" src="https://github.com/user-attachments/assets/baaca139-b9e5-4df3-8bef-db894ae5db72" />
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+:bulb: Üye Olma Panelim
+<img width="302" height="615" alt="Ekran görüntüsü 2025-08-08 144820" src="https://github.com/user-attachments/assets/d9743131-3ed8-4250-8fa9-e2c4096b0eca" />
 
-```sh
-# Using npm
-npm run ios
 
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
