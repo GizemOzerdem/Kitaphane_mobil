@@ -54,9 +54,15 @@ Mobil geliştirme alanında kendini geliştiren bir geliştirici adayının port
 Bu proje henüz tamamlanmamıştır ve zamanla güncellenerek geliştirilecektir. Katkı sağlamak isterseniz PR göndermekten çekinmeyin. 😊
 
 :bulb: Üye Giriş Panelim
+
 <img width="304" height="620" alt="Ekran görüntüsü 2025-08-08 144803" src="https://github.com/user-attachments/assets/baaca139-b9e5-4df3-8bef-db894ae5db72" />
 
+
+
+
+
 :bulb: Üye Olma Panelim
+
 <img width="302" height="615" alt="Ekran görüntüsü 2025-08-08 144820" src="https://github.com/user-attachments/assets/d9743131-3ed8-4250-8fa9-e2c4096b0eca" />
 
 
